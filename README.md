@@ -52,7 +52,7 @@ This is a website that will inform visitors about the following:
 
 1. Open a command line interface (Terminal on mac or equivalent on windows) 
 
-Tip: For a linux/mac experience on Windows, you can download https://cmder.net/. 
+*  Tip: For a linux/mac experience on Windows, you can download https://cmder.net/. 
 
 2. Install nvm, a version manager for node.js (for more information see: https://github.com/nvm-sh/nvm) 
 
@@ -64,14 +64,13 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | bash
 ```
 nvm install node 14.15.1
 nvm use node 14.15.1
-
 ```
-Double check you are using the right version of node by typing the following command
+*  Double check you are using the right version of node by typing the following command
 
 ```
 node --version 
 ```
-This should output: v13.14.0
+*  This should output: v13.14.0
 
 4. Install a IDE of your choice. Some recommended IDEs include atom or VSCode
 
@@ -88,22 +87,16 @@ git clone https://github.com/AVu120/civic-makers-climate-change-visualization.gi
 cd civic-makers-climate-change-visualization
 ```
 
-7. Navigate to clients folder 
+7. Navigate to clients folder and run npm install 
 
 ```
 cd client
-```
-8. run npm install 
-
-```
 npm install
-
 ```
-9. run npm start 
+9. run npm start (while in clients folder)
 
 ```
 npm start
-
 ```
 
 10. In another terminal, navigate to the server folder and install express and nodemon
@@ -111,21 +104,24 @@ npm start
 ```
 cd server
 npm i express nodemon
-
 ```
 
-11. Run npm start 
+11. Run npm start (while in server folder)
 
 ```
 npm start
 ```
 
-13. Go to http://localhost:3000/ and check you see the following screenshot. 
+12. Go to http://localhost:3000/ and check you see the following screenshot. 
+
+![image](Final)
+
+##  Starting up the development environment after first set up
 
 
-## Opening the terminal after
+1. Repeat steps 6 to 12 
 
-14. When necessary, install only the client dependencies you need (e.g. react-scripts to 'npm run build' and testing libraries).
+2. When necessary, install only the client dependencies you need (e.g. react-scripts to 'npm run build' and testing libraries).
 
 ```
 cd client
