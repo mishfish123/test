@@ -50,27 +50,27 @@ This is a website that will inform visitors about the following:
 
 ##  Getting Started
 
-1. Open a command line interface (Terminal on mac or equivalent on windows) 
+1. Open a command line interface (Terminal on mac or equivalent on windows)
 
-*  Tip: For a linux/mac experience on Windows, you can download https://cmder.net/. 
+   *  Tip: For a linux/mac experience on Windows, you can download https://cmder.net/.
 
-2. Install nvm, a version manager for node.js (for more information see: https://github.com/nvm-sh/nvm) 
+2. Install nvm, a version manager for node.js (for more information see: https://github.com/nvm-sh/nvm)
 
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | bash
 ```
-3. Install node (version 14.15.1) using nvm, this is the most recent stable version of node. 
+3. Install node (version 14.15.1) using nvm, this is the most recent stable version of node.
 
 ```
 nvm install node 14.15.1
 nvm use node 14.15.1
 ```
-*  Double check you are using the right version of node by typing the following command
+   *  Double check you are using the right version of node by typing the following command
 
 ```
-node --version 
+node --version
 ```
-*  This should output: v13.14.0
+   *  This should output: v13.14.0
 
 4. Install a IDE of your choice. Some recommended IDEs include atom or VSCode
 
@@ -87,7 +87,7 @@ git clone https://github.com/AVu120/civic-makers-climate-change-visualization.gi
 cd civic-makers-climate-change-visualization
 ```
 
-7. Navigate to clients folder and run npm install 
+7. Navigate to clients folder and run npm install
 
 ```
 cd client
@@ -112,14 +112,14 @@ npm i express nodemon
 npm start
 ```
 
-12. Go to http://localhost:3000/ and check you see the following screenshot. 
+12. Go to http://localhost:3000/ and check you see the following screenshot.
 
 ![image](Final)
 
 ##  Starting up the development environment after first set up
 
 
-1. Repeat steps 6 to 12 
+1. Repeat steps 6 to 12 from the above section Getting Started.
 
 2. When necessary, install only the client dependencies you need (e.g. react-scripts to 'npm run build' and testing libraries).
 
@@ -188,13 +188,15 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Contributors
 
-- [mishfish123](https://github.com/mishfish123)
-- [AVu120](https://github.com/AVu120)
-- [mansisheth13](https://github.com/mansisheth13)
 - [hqtan](https://github.com/hqtan)
 - [k7n4n5t3w4rt](https://github.com/k7n4n5t3w4rt)
 - [izzypeskett](https://github.com/izzypeskett)
+- [mcyph](https://github.com/mcyph)
+- [mishfish123](https://github.com/mishfish123)
+- [mansisheth13](https://github.com/mansisheth13)
 - [annemariejayatilake](https://github.com/annemariejayatilake)
+- [AVu120](https://github.com/AVu120)
+
 
 <!-- LICENSE -->
 
