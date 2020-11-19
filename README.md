@@ -65,12 +65,11 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | bash
 nvm install node 14.15.1
 nvm use node 14.15.1
 ```
-   *  Double check you are using the right version of node by typing the following command
+3. (optional) Double check you are using the right version of node by typing the following command. It should output v13.14.0
 
 ```
 node --version
 ```
-   *  This should output: v13.14.0
 
 4. Install a IDE of your choice. Some recommended IDEs include atom or VSCode
 
