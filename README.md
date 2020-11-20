@@ -50,6 +50,10 @@ This is a website that will inform visitors about the following:
 
 ##  Getting Started
 
+-[See this document for more detailed instructions on getting started](https://docs.google.com/document/d/1_Xz9BDUdD2zFesFQC_Zl64CHbjufQWjVTdEalExVhr8/edit)
+
+0. Make sure you have xcode installed (on Mac)
+
 1. Open a command line interface (Terminal on mac or equivalent on windows)
 
    *  Tip: For a linux/mac experience on Windows, you can download https://cmder.net/.
@@ -58,11 +62,14 @@ This is a website that will inform visitors about the following:
 
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | bash
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 ```
 3. Install node (version 14.15.1) using nvm, this is the most recent stable version of node.
 
 ```
-nvm install node 14.15.1
+nvm install 14.15.1
 nvm use node 14.15.1
 ```
 3. (optional) Double check you are using the right version of node by typing the following command. It should output v13.14.0
@@ -101,6 +108,9 @@ npm start
 10. In another terminal, navigate to the server folder and install express and nodemon
 
 ```
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 cd server
 npm i express nodemon
 ```
@@ -111,9 +121,7 @@ npm i express nodemon
 npm start
 ```
 
-12. Go to http://localhost:3000/ and check you see the following screenshot.
-
-![image](Final)
+12. Go to http://localhost:3000/ and check if both front and back end is running
 
 ##  Starting up the development environment after first set up
 
